@@ -24,9 +24,8 @@ A program használata:
 
 Példa lefutás:
 
-Input:
-  Boráros tér, Nyugati pályaudvar
-  
+Input: \
+  Boráros tér, Nyugati pályaudvar \
 Output:
   Adja meg a kiindulópontot:
   Boráros tér
