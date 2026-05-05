@@ -24,25 +24,26 @@ A program használata:
 
 Példa lefutás:
 
-Input: \
-  Boráros tér, Nyugati pályaudvar \
-Output:
-  Adja meg a kiindulópontot:
-  Boráros tér
-  Adja meg a célállomást:
-  Nyugati pályaudvar
-  Legrövidebb útvonal Boráros tér és Nyugati pályaudvar között:
-  Haladjon 129 métert a következő úton: Boráros tér
-  Menjen tovább egyenesen.
-  Haladjon 581 métert a következő úton: Ferenc körút
-  Menjen tovább egyenesen.
-  Haladjon 1278 métert a következő úton: József körút
-  Menjen tovább egyenesen.
-  Haladjon 793 métert a következő úton: Erzsébet körút
-  Menjen tovább egyenesen.
-  Haladjon 1018 métert a következő úton: Teréz körút
-  Megérkezett az úticéljához.
-  A lefutás ideje: 1.5740127563476562 mp
+Input:\
+  Boráros tér, Nyugati pályaudvar
+  
+Output:\
+  Adja meg a kiindulópontot:\
+  Boráros tér\
+  Adja meg a célállomást:\
+  Nyugati pályaudvar\
+  Legrövidebb útvonal Boráros tér és Nyugati pályaudvar között:\
+  Haladjon 129 métert a következő úton: Boráros tér\
+  Menjen tovább egyenesen.\
+  Haladjon 581 métert a következő úton: Ferenc körút\
+  Menjen tovább egyenesen.\
+  Haladjon 1278 métert a következő úton: József körút\
+  Menjen tovább egyenesen.\
+  Haladjon 793 métert a következő úton: Erzsébet körút\
+  Menjen tovább egyenesen.\
+  Haladjon 1018 métert a következő úton: Teréz körút\
+  Megérkezett az úticéljához.\
+  A lefutás ideje: 1.5740127563476562 mp\
 
 ##########################################################
 
