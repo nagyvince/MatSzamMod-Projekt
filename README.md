@@ -43,7 +43,7 @@ Output:\
   Menjen tovább egyenesen.\
   Haladjon 1018 métert a következő úton: Teréz körút\
   Megérkezett az úticéljához.\
-  A lefutás ideje: 1.5740127563476562 mp\
+  A lefutás ideje: 1.5740127563476562 mp
 
 ##########################################################
 
