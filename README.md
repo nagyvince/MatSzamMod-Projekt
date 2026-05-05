@@ -3,12 +3,23 @@ A projekt a BBBike adataival dolgozik, amelyek megtalálhatóak: https://downloa
 Az adathalmaz felhasználásához szükséges, hogy az a felhasználó saját gépén meglegyen, mert az túl nagy, hogy feltöltsük a GitHub-ra.
 Ezt végzi a "Lement.ipynb" program, ami beszerzi a megfelelő adatokat és készít belőlük egy használható fájlt.
 
-A "Beolvas.ipynb" használja fel a generált fájlt, és ezen keresztül fog működni a végleges program is.
-(Jelenleg a Beolvas csak kiírja az adathalmazból generált gráf csúcs- és élszámát, hogy egy elképzelést adjon a méretéről.)
-
-A "Main.ipynb"-ben lesz az algoritmus törzse. Jelenleg még csak egyetlen függvény van benne, ami egy input helynévnek megkeresi a koordinátáit. Amennyiben az adott név már el van mentve a "place_coords.json" fájlba, onnan veszi elő, ha nincs, akkor az interneten keresztül keresi meg őket, és berakja a már meglévők közé.
+A "Beolvas.ipynb" illusztrálja milyen módon történik a fájl beolvasása és ad egy képet a felhasznált adathalmaz méretéről.
 
 A "place_coords.json" tartalmazza az általam, próbafuttatások során már elmentett helynév-koordinátapár adattömböket (ez per pillanat valószínűleg igen kevés).
+
+A "Main.ipynb"-ben van az algoritmus törzse. Jelenleg a következő funkciókat tartalmazza:
+- Képes elkészíteni, menedzselni és felhasználni a "place_coords.json" könyvtárat, hogy gyorsítsa a helymeghatározást.
+- Megtalálni a felhasználó által keresett kiinduló- és célpontokat.
+- A find_route függvényen keresztül megkeresni a legrövidebb utat a két pont között.
+- A compress_route függvényen keresztül ezt olvasható navigációs instrukciókká alakítani.
+
+##########################################################
+
+A projektben felhasznált könyvtárak, modulok és package-ek:
+- osmnx: a földrajzi adatok kezelésére és a gráfmodellhez
+- rapidfuzz: a szövegkereséshez
+- json: a felhasználó által már keresett helyszínek mentésére
+- math, heapq: az algoritmusok megvalósítására
 
 ##########################################################
 
