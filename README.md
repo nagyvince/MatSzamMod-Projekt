@@ -13,7 +13,7 @@ A "Main.ipynb"-ben van az algoritmus törzse. Jelenleg a következő funkciókat
 - A find_route függvényen keresztül megkeresni a legrövidebb utat a két pont között.
 - A compress_route függvényen keresztül ezt olvasható navigációs instrukciókká alakítani.
 
-A programban két különböző gráfkeresési algoritmus van implementálva: Dijkstra algoritmus, és kétirányú Dijkstra algoritmus. A kettő között váltani az 5. cella tetején definiált ALGORITHM_TYPE változó átírásával lehet.
+A programban három különböző gráfkeresési algoritmus van implementálva: Dijkstra algoritmus, kétirányú Dijkstra algoritmus és A* algoritmus. Közöttük váltani az 5. cella tetején definiált ALGORITHM_TYPE változó átírásával lehet, a megfelelő string értékre: 'dijkstra', 'bidirectional_dijkstra', 'a_star'.
 
 A program használata:
 - A "Lement.ipynb" programmal a RoadMap beszerzése
