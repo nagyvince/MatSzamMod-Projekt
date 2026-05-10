@@ -48,7 +48,7 @@ Output:\
   Megérkezett az úticéljához.\
   Útvonal megtalálásának ideje: 2.1835289001464844 mp
 
-  >>>> Itt lesz látható a térkép <<<<
+  > Itt lesz látható a térkép
   
   A teljes lefutás ideje: 32.04389214515686 mp
 
