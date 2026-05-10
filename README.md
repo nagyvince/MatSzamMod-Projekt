@@ -12,13 +12,14 @@ A "Main.ipynb"-ben van az algoritmus törzse. Jelenleg a következő funkciókat
 - Megtalálni a felhasználó által keresett kiinduló- és célpontokat.
 - A find_route függvényen keresztül megkeresni a legrövidebb utat a két pont között.
 - A compress_route függvényen keresztül ezt olvasható navigációs instrukciókká alakítani.
+- A show_map függvényen keresztül egy vázlatos térképet mutatni, rajta kiemelve az útvonallal
 
 A programban három különböző gráfkeresési algoritmus van implementálva: Dijkstra algoritmus, kétirányú Dijkstra algoritmus és A* algoritmus. Közöttük váltani az 5. cella tetején definiált ALGORITHM_TYPE változó átírásával lehet, a megfelelő string értékre: 'dijkstra', 'bidirectional_dijkstra', 'a_star'.
 
 A program használata:
 - A "Lement.ipynb" programmal a RoadMap beszerzése
 - A "Main.ipynb" futtatása, majd a kiinduló- és célpont megadása
-- A program által javasolt útvonal az utolsó cella output-jában lesz olvasható
+- A program által javasolt útvonal az utolsó cella output-jában lesz olvasható, alatta a térképpel
 
 ##########################################################
 
@@ -32,6 +33,8 @@ Output:\
   Boráros tér\
   Adja meg a célállomást:\
   Nyugati pályaudvar\
+  Exact match found in cache: Boráros tér\
+  Exact match found in cache: Nyugati pályaudvar\
   Legrövidebb útvonal Boráros tér és Nyugati pályaudvar között:\
   Haladjon 129 métert a következő úton: Boráros tér\
   Menjen tovább egyenesen.\
@@ -43,7 +46,11 @@ Output:\
   Menjen tovább egyenesen.\
   Haladjon 1018 métert a következő úton: Teréz körút\
   Megérkezett az úticéljához.\
-  A lefutás ideje: 1.5740127563476562 mp
+  Útvonal megtalálásának ideje: 2.1835289001464844 mp
+
+  >>>> Itt lesz látható a térkép <<<<
+  
+  A teljes lefutás ideje: 32.04389214515686 mp
 
 ##########################################################
 
@@ -51,6 +58,7 @@ A projektben felhasznált könyvtárak, modulok és package-ek:
 - osmnx: a földrajzi adatok kezelésére és a gráfmodellhez
 - rapidfuzz: a szövegkereséshez
 - json: a felhasználó által már keresett helyszínek mentésére
+- matplotlib: a térkép vizualizációjához
 - time: az algoritmusok teljesítményének mérésére
 - math, heapq: az algoritmusok megvalósítására
 
